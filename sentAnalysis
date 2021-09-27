@@ -1,0 +1,6 @@
+for sub in trends:
+    for key in sub:
+        if sub[key] == None:
+            sub[key] = int(0)
+    modTrends = trends
+    print(modTrends)
